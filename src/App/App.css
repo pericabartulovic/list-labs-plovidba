@@ -1,0 +1,13 @@
+.App {
+  /* position: relative; */
+}
+.img-holder {
+  position: fixed;
+  display: block;
+  background-size: 25rem;
+  background-image: url(./assets/lighthouse.jpg);
+  width: 100%;
+  height: 100vh;
+  filter: opacity(0.1) contrast(0.6) brightness(1.3);
+  z-index: -1;
+}
